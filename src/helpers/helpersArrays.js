@@ -1,10 +1,11 @@
 import Instance from "@/api/request";
-function createAnArray(){
+
+export function createAnArray(){
     const undefinedArray = Array.from(Array(650));
     return undefinedArray.map( (_, index) => index + 1);
 }
 
-function mixinArray(){
+export function mixinArray(){
     const orderedArray = createAnArray();
     return orderedArray.sort(() => Math.random() - 0.5);
 }
