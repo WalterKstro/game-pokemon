@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suit of component <PokemonImage/> Should create a correct snapshot of <PokemonImage/> 1`] = `<div class="container-picture"><img draggable="false" class="picture-pokemon picture-shadow" state="hidden" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="pokemon"></div>`;

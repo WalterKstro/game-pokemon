@@ -2,11 +2,13 @@
   <div class="container-picture">
       <img v-if="showImagePokemon" 
            draggable="false"  
+           state="show"
            class="picture-pokemon picture-origin" 
            :src="generateSourceUrlImage" alt="pokemon">
 
       <img v-else draggable="false"  
            class="picture-pokemon picture-shadow"
+           state="hidden"
            :src="generateSourceUrlImage" alt="pokemon"> 
   </div>
 </template>
