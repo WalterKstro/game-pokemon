@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suit on component <PokemonOptions/> Should create a correct snapshot of <PokemonOptions/> 1`] = `
+<aside>
+  <h2 class="list-title">Seleccione una opción</h2>
+  <ul class="container-list">
+    <li class="list-item"><button class="list-button" data-id="196">espeon</button></li>
+    <li class="list-item"><button class="list-button" data-id="630">mandibuzz</button></li>
+    <li class="list-item"><button class="list-button" data-id="173">cleffa</button></li>
+    <li class="list-item"><button class="list-button" data-id="238">smoochum</button></li>
+  </ul>
+</aside>
+`;
