@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for Home page Should create a correct snapshot of <Home/> 1`] = `
+<div class="container-game">
+  <h1 class="title">¿Quien es este Pokemon?</h1>
+  <div class="container-main">
+    <div class="container-picture"><img draggable="false" state="show" class="picture-pokemon picture-origin" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/196.svg" alt="pokemon"></div>
+    <aside>
+      <h2 class="list-title">Seleccione una opción</h2>
+      <ul class="container-list">
+        <li class="list-item"><button class="list-button" data-id="196">espeon</button></li>
+        <li class="list-item"><button class="list-button" data-id="630">mandibuzz</button></li>
+        <li class="list-item"><button class="list-button" data-id="173">cleffa</button></li>
+        <li class="list-item"><button class="list-button" data-id="238">smoochum</button></li>
+      </ul>
+    </aside>
+  </div>
+  <!--v-if-->
+</div>
+`;
