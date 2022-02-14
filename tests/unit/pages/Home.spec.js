@@ -25,7 +25,7 @@ describe('Test suite for Home page', () => {
     });
 
     test('Should call the getDataPokemon method, when the component is created', () => {
-        // Un spy, es como un watch, que esta pendiente de la lalmada a una funcion
+        // Un spy, es como un watch, que esta pendiente de la llamada a una funcion
         const spy = jest.spyOn(Home.methods, 'getDataPokemon');
         const wrapper = shallowMount(Home);
 
